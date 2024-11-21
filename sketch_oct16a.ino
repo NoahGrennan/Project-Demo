@@ -1,10 +1,12 @@
+//Code by Noah Grennan
+//This code is used for Arduino mega board and using a microphone can turn on and off and led to a noise or clap.  
 int micPin = A0;          // pin that the mic is attached to
-int gndPin = A1;
-int powerPin = A2;
-int micValue1 = 0;  
+int gndPin = A1;  // pin that connects to ground for mic
+int powerPin = A2; // power pin location for mic
+int micValue1 = 0;  // mic value
 int micValue2 = 0; // the Microphone value
-int led1 = 13;
-boolean lightOn = false;
+int led1 = 13; // lead connected to analog 13 pin
+boolean lightOn = false; // light starts turned off
 
 
 void setup() {
